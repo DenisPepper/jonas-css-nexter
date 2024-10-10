@@ -1,3 +1,17 @@
 .container {
   min-height: 100dvh;
+
+  display: grid;
+  grid-template-rows: 80dvh min-content 40vw repeat(3, min-content);
+  grid-template-columns:
+    [sidebarStart] 8rem
+    [sidebarEnd fullStart] minmax(6rem, 1fr)
+    [centerStart] repeat(8, [colStart] minmax(min-content, 14rem) [colEnd])
+    [centerEnd] minmax(6rem, 1fr)
+    [fullEnd];
+
+  & > * {
+    padding: 4rem;
+    font-size: 3rem;
+  }
 }

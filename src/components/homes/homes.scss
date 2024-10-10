@@ -1,0 +1,6 @@
+@import '/src/main.scss';
+
+.homes {
+  background-color: $color-secondary;
+  grid-column: centerStart/ centerEnd;
+}

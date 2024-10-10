@@ -1,0 +1,7 @@
+@import '/src/main.scss';
+
+.footer {
+  background-color: $color-secondary;
+  grid-row: -2/ -1;
+  grid-column: fullStart/ fullEnd;
+}

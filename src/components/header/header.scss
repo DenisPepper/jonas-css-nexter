@@ -1,0 +1,6 @@
+@import '/src/main.scss';
+
+.header {
+  background-color: $color-grey-dark-2;
+  grid-column: fullStart/ colEnd 6;
+}

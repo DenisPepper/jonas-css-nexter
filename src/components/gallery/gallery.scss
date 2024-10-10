@@ -1,0 +1,7 @@
+@import '/src/main.scss';
+
+.gallery {
+  background-color: $color-grey-dark-1;
+  grid-row: -3/ -2;
+  grid-column: fullStart/ fullEnd;
+}

@@ -1,0 +1,6 @@
+@import '/src/main.scss';
+
+.features {
+  background-color: $color-grey-light-2;
+  grid-column: centerStart / centerEnd;
+}

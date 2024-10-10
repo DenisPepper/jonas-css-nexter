@@ -1,0 +1,6 @@
+@import '/src/main.scss';
+
+.realtors {
+  background-color: $color-secondary;
+  grid-column: colStart 7 / fullEnd;
+}

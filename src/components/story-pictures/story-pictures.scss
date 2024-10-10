@@ -1,0 +1,6 @@
+@import '/src/main.scss';
+
+.story__pictures {
+  background-color: $color-primary;
+  grid-column: fullStart/ colEnd 4;
+}
