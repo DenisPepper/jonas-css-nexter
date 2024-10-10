@@ -1,5 +1,5 @@
 import './app.scss';
 
 export function App() {
-  return <div>App</div>;
+  return <div className='container'>App</div>;
 }
