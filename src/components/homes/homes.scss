@@ -1,6 +1,11 @@
 @import '/src/main.scss';
 
 .homes {
-  background-color: $color-secondary;
+  margin: 15rem 0;
+
   grid-column: centerStart/ centerEnd;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 7rem;
 }
