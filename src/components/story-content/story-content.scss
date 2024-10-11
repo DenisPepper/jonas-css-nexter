@@ -1,6 +1,17 @@
 @import '/src/main.scss';
 
 .story__content {
+  padding: 6rem 8vw;
   background-color: $color-grey-light-1;
   grid-column: colStart 5 / fullEnd;
+
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
+
+.story__text {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 4rem;
 }
