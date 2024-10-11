@@ -9,9 +9,4 @@
     [centerStart] repeat(8, [colStart] minmax(min-content, 14rem) [colEnd])
     [centerEnd] minmax(6rem, 1fr)
     [fullEnd];
-
-  & > * {
-    padding: 4rem;
-    font-size: 3rem;
-  }
 }
