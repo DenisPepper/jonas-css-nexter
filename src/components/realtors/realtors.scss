@@ -3,4 +3,10 @@
 .realtors {
   background-color: $color-secondary;
   grid-column: colStart 7 / fullEnd;
+  text-align: center;
+  color: white;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
